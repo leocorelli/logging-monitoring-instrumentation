@@ -1,3 +1,6 @@
+# venv
+logging-monitoring-instrumentation
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
