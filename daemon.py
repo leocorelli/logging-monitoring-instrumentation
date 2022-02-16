@@ -10,8 +10,8 @@ FRUIT = ["apple", "cherry", "strawberry"]
 TIME = 2
 
 while True:
-    logging.info("Looping Daemon")
-    logging.info(f"This is INFO fruit: {choices(FRUIT)}")
-    logging.debug(f"This is DEBUG fruit: {choices(FRUIT)}")
+    logger.info("Looping Daemon")
+    logger.info(f"This is INFO fruit: {choices(FRUIT)}")
+    logger.debug(f"This is DEBUG fruit: {choices(FRUIT)}")
     print(f"Sleeping for {TIME}")
     sleep(TIME)
