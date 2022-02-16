@@ -15,7 +15,7 @@ LOGGER = logging.getLogger("simpleExample")
 )
 @click.option(
     "--level",
-    default=30,
+    default=10,
     help="Sets log level",
 )
 def run(time, level):
