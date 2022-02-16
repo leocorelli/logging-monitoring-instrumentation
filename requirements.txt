@@ -3,3 +3,5 @@ python-json-logger
 pylint
 pytest
 pytest-cov
+click
+boto3
